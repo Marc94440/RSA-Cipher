@@ -76,9 +76,9 @@ def Decrypt():
         for x in range(len(message_array)):
             for y in range(0,len(message_array[x]),8):
                 message_value+=wrap(str(message_array[x][y:y+8]))
-            for x in range(len(message_value)):
-                result+=chr(int(message_value[x],2))
-                dlg.textEdit_New_Text.setText(result)
+        for x in range(len(message_value)):
+            result+=chr(int(message_value[x],2))
+        dlg.textEdit_New_Text.setText(result)
     except:
         dlg.label_Blablabla.setText("N and E should be numbers and so does your text")
 
