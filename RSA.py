@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
+
 from PyQt5 import QtWidgets, uic
 import random
 import math
 from sympy import isprime;
 from textwrap import wrap
- 
+
+#For running .exe file
+import sys, os
+if getattr(sys, 'frozen', False):
+    os.chdir(sys._MEIPASS)
 
 app =QtWidgets.QApplication([])
 dlg = uic.loadUi("RSA.ui")
