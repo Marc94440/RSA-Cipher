@@ -8,4 +8,4 @@ pyinstaller --clean --windowed --onedir --add-data='.\RSA.ui;.' .\RSA.py
 ```
 The executable file is now created in the dist/RSA folder.
 ## The application 
-![Accueil](./RSA.png)
+![App](./RSA.png)
