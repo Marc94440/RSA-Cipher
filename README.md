@@ -1,5 +1,5 @@
 # RSA-Cipher
-A RSA cipher application to encrypt and decrypt text using python
+A RSA cipher application to encrypt and decrypt text using python.
 
 ## Create the exe 
 run this command in powershell at the location of the project:
