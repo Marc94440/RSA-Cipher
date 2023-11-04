@@ -1,1 +1,1 @@
-pyinstaller --clean --windowed --onedir --add-data='.\Affine_cipher.ui;.' .\Affine_Cipher.py
+pyinstaller --clean --windowed --onedir --add-data='.\RSA.ui;.' .\RSA.py
